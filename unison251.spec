@@ -135,10 +135,10 @@ cp -a %{SOURCE2} unison-manual.html
 unset MAKEFLAGS
 
 # we compile 2 versions: gtk2 ui and text ui
-make UISTYLE=gtk
+make -C src UISTYLE=gtk THREADS=true
 mv src/unison unison-gtk
 
-make UISTYLE=text
+make -C src UISTYLE=text THREADS=true
 mv src/unison unison-text
 mv src/unison-fsmonitor unison-fsmonitor
 
