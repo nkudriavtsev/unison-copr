@@ -109,7 +109,7 @@ This package provides the fsmonitor functionality of unison.
 
 
 %prep
-%setup -q
+%setup -q -n safe-string
 
 #%patch0 -p1
 
