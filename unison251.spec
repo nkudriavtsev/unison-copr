@@ -34,7 +34,7 @@ URL:       https://www.cis.upenn.edu/~bcpierce/unison
 Source0:   https://github.com/glondu/unison/archive/safe-string.zip
 Source1:   unison.png
 %dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}%{ver_noncompat}-manual.html
-%dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}.2-manual.html
+Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}.2-manual.html
 
 %dnl Patch0: unison-%{ver_compat}%{ver_noncompat}-lablgtk.2.18.6-fix.patch
 
