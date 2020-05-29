@@ -23,7 +23,7 @@
 
 Name:      unison%{ver_compat_name}
 Version:   %{ver_compat}%{ver_noncompat}
-Release:   3.%{?dist}
+Release:   3%{?dist}
 #Release:   1
 
 Summary:   Multi-master File synchronization tool
