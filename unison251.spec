@@ -231,7 +231,7 @@ fi
 %{_bindir}/unison-fsmonitor-%{ver_compat}
 
 %changelog
-* Fri May 28 2020 Nicholas Kudriavtsev <chris@roadfeldt.com> - 2.51.2-3
+* Fri May 29 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.2-3
 - Update to https://github.com/glondu/unison/archive/safe-string.zip with safe-string patch.
 
 * Sun Dec 15 2019 Chris Roadfeldt <chris@roadfeldt.com> - 2.51.3-1_26a29f7
