@@ -34,7 +34,7 @@ URL:       https://www.cis.upenn.edu/~bcpierce/unison
 Source0:   https://github.com/bcpierce00/unison/archive/master.zip
 Source1:   unison.png
 %dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}%{ver_noncompat}-manual.html
-Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}.2-manual.html
+Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/beta/unison-manual.html
 
 %dnl Patch0: unison-%{ver_compat}%{ver_noncompat}-lablgtk.2.18.6-fix.patch
 
@@ -233,6 +233,7 @@ fi
 %changelog
 * Sat Oct 03 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-1
 - Update to 2.51.3_rc1
+- Update URL for html documentation
 
 * Fri May 29 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.2-3
 - Update to https://github.com/glondu/unison/archive/safe-string.zip with safe-string patch.
