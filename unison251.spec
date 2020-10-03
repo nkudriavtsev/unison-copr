@@ -1,7 +1,7 @@
 # These is the exact upstream version we are packaging
 %global ver_maj 2
 %global ver_min 51
-%global ver_patch 2
+%global ver_patch 3
 
 # All Unison versions sharing ver_compat are compatible
 # Examples are 2.13.15 and 2.13.16 -> ver_compat == 2.13
@@ -23,7 +23,7 @@
 
 Name:      unison%{ver_compat_name}
 Version:   %{ver_compat}%{ver_noncompat}
-Release:   3%{?dist}
+Release:   1%{?dist}
 #Release:   1
 
 Summary:   Multi-master File synchronization tool
@@ -31,7 +31,7 @@ Summary:   Multi-master File synchronization tool
 Group:     Applications/File
 License:   GPLv3+
 URL:       https://www.cis.upenn.edu/~bcpierce/unison
-Source0:   https://github.com/glondu/unison/archive/safe-string.zip
+Source0:   https://github.com/bcpierce00/unison/archive/master.zip
 Source1:   unison.png
 %dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}%{ver_noncompat}-manual.html
 Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}.2-manual.html
@@ -231,6 +231,9 @@ fi
 %{_bindir}/unison-fsmonitor-%{ver_compat}
 
 %changelog
+* Sat Oct 03 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-1
+- Update to 2.51.3_rc1
+
 * Fri May 29 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.2-3
 - Update to https://github.com/glondu/unison/archive/safe-string.zip with safe-string patch.
 
