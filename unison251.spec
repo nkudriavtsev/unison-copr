@@ -23,7 +23,7 @@
 
 Name:      unison%{ver_compat_name}
 Version:   %{ver_compat}%{ver_noncompat}
-Release:   1%{?dist}
+Release:   2%{?dist}
 #Release:   1
 
 Summary:   Multi-master File synchronization tool
@@ -31,7 +31,7 @@ Summary:   Multi-master File synchronization tool
 Group:     Applications/File
 License:   GPLv3+
 URL:       https://www.cis.upenn.edu/~bcpierce/unison
-Source0:   https://github.com/bcpierce00/unison/archive/master.zip
+Source0:   https://github.com/bcpierce00/unison/archive/v%{ver_maj}.%{ver_min}.{%ver_patch}.tar.gz
 Source1:   unison.png
 %dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}%{ver_noncompat}-manual.html
 Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/beta/unison-manual.html
@@ -231,6 +231,9 @@ fi
 %{_bindir}/unison-fsmonitor-%{ver_compat}
 
 %changelog
+* Sat Oct 25 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-2
+- Update to 2.51.3
+
 * Sat Oct 03 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-1
 - Update to 2.51.3_rc1
 - Update URL for html documentation
