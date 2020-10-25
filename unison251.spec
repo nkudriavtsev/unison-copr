@@ -231,7 +231,7 @@ fi
 %{_bindir}/unison-fsmonitor-%{ver_compat}
 
 %changelog
-* Sat Oct 25 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-2
+* Sun Oct 25 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-2
 - Update to 2.51.3
 
 * Sat Oct 03 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-1
