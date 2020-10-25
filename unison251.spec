@@ -31,7 +31,7 @@ Summary:   Multi-master File synchronization tool
 Group:     Applications/File
 License:   GPLv3+
 URL:       https://www.cis.upenn.edu/~bcpierce/unison
-Source0:   https://github.com/bcpierce00/unison/archive/v%{ver_maj}.%{ver_min}.{%ver_patch}.tar.gz
+Source0:   https://github.com/bcpierce00/unison/archive/v%{ver_maj}.%{ver_min}.%{ver_patch}.tar.gz
 Source1:   unison.png
 %dnl Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/unison-%{ver_compat}%{ver_noncompat}/unison-%{ver_compat}%{ver_noncompat}-manual.html
 Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/beta/unison-manual.html
