@@ -1,7 +1,7 @@
 # These is the exact upstream version we are packaging
 %global ver_maj 2
 %global ver_min 51
-%global ver_patch 3
+%global ver_patch 4
 
 # All Unison versions sharing ver_compat are compatible
 # Examples are 2.13.15 and 2.13.16 -> ver_compat == 2.13
@@ -23,7 +23,7 @@
 
 Name:      unison%{ver_compat_name}
 Version:   %{ver_compat}%{ver_noncompat}
-Release:   2%{?dist}
+Release:   1%{?dist}
 #Release:   1
 
 Summary:   Multi-master File synchronization tool
@@ -231,6 +231,9 @@ fi
 %{_bindir}/unison-fsmonitor-%{ver_compat}
 
 %changelog
+* Sun Jun 27 2021 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.4-1
+- Update to 2.51.4
+
 * Sun Oct 25 2020 Nicholas Kudriavtsev <nkudriavtsev@gmail.com> - 2.51.3-2
 - Update to 2.51.3
 
