@@ -43,6 +43,7 @@ Source2:   https://www.cis.upenn.edu/~bcpierce/unison/download/releases/beta/uni
 ExcludeArch:   sparc64 s390 s390x
 
 BuildRequires: ocaml texlive-latex-bin-bin
+BuildRequires: make
 
 Requires:   %{name}-ui = %{version}-%{release}
 
